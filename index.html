@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Hello Vue</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+
+
+</head>
+
+<body>
+  <!-- Inizio HEADER -->
+  <header>
+
+  </header>
+
+  <!-- Inizio MAIN -->
+  <main id="root">
+    
+      <div class="container">
+        <h1 v-bind:variabile="message" 
+        v-bind:class="classiH1" 
+        v-bind:title="titoloH1"> {{ message }}</h1>
+        <img v-bind:src="immagine" v-bind:alt="descrizione" v-bind:class="classImg">
+        
+
+    
+
+      </div>
+    
+  </main>
+
+  <!-- Inizio FOOTER -->
+  <footer>
+
+  </footer>
+
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>

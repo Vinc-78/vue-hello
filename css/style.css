@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/************************************************
+* Selettori TAG
+************************************************/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+
+.centra_testo { 
+  position: fixed;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  
+}
+
+.posiziona_immagine {    
+  position: fixed;
+  left: 40%;
+  top: 45%;
+}
+
+/************************************************
+* Classi layout
+************************************************/
+.container {
+  max-width: 920px;
+  width: 100%;
+  margin: auto;
+}
